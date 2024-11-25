@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#header1{  /* header style, ShopeMore, home, shop, cart */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px 80px;
+background:#FF7D29;
+box-shadow: 0 5px 15px rgb(0,0,0,0.10);
+}
+
+.logo{ /* Shop*/
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+span{ /*More*/
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+#navbar{ 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#navbar li{
+list-style: none;
+padding: 0 20px;
+}
+
+#navbar li a{
+text-decoration: none;
+font-size: 16px;
+color: white;
+font-weight: 600;
+font-size: large;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+color: black;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin: 0 auto;
+    padding: 20px 30%;  /* Using percentage-based padding for responsiveness */
+}
+
+/* Styling for the navbar */
+.nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+/* Style for each navbar item */
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects for navbar items */
+.nav-bar li a:hover, 
+.nav-bar li a.active {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 20px 10%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-bar li a {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-bar li a {
+        font-size: 14px;
+    }
+}
+
+.section-padding1
+{
+  padding: 40px 50px;
+  background-color: #2C7865;
+border: solid 20px #ffffff;
+}
+
+.section-margin1{
+  margin: 40px 0;
+
+}
+
+#product1{
+  text-align: center;
+
+}
+#product1 .pro-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+#product1 .pro{
+width: 19%;
+min-width: 200px;
+padding: 10px 12px;
+border: 1px solid #a7a9a8;
+border-radius: 25px;
+cursor: pointer;
+box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+margin: 15px 0;
+background-color: rgb(224, 224, 224);
+position: relative;
+}  
+
+#product1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.06); ;
+}
+
+#product1 .pro img{
+  width: 95%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+
+#product1 .pro .description{
+text-align: start;
+padding: 10px 0;
+}
+

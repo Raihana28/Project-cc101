@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+#header1{  /* header style, ShopeMore, home, shop, cart */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px 80px;
+background:#FF7D29;
+box-shadow: 0 5px 15px rgb(0,0,0,0.10);
+}
+
+.logo{ /* Shop*/
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+span{ /*More*/
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+#navbar{ 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#navbar li{
+list-style: none;
+padding: 0 20px;
+}
+
+#navbar li a{
+text-decoration: none;
+font-size: 16px;
+color: white;
+font-weight: 600;
+font-size: large;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+color: black;
+}
+
+.section-padding1{
+  padding: 40px 50px;
+}
+
+/*this is Details about the product */
+#prodetails{
+    display: flex;
+    border-top: solid 40px#ffffff;
+    border-bottom: solid 40px #ffffff;
+    background-color: cornsilk;
+}
+
+
+#prodetails .single-pro-image{
+    width: 40%;
+    height: 5%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+   justify-content: space-between;
+}
+
+.small-img-col{
+flex-basis: 24%;
+cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#prodetails .single-pro-details h4{ /*Men's fashion T-shirt*/
+    padding: 30px 0 15px 0
+}
+
+#prodetails .single-pro-details h2{ /*price*/
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 50px 50px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+#prodetails .single-pro-details button{
+    background-color: rgb(0, 192, 80);
+    color: white;
+    width: 100px;
+    height:45px ;
+}
+
+#prodetails .single-pro-details input{
+    outline: none;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+
+#product1{
+    text-align: center;
+  
+  }
+  #product1 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    row-gap: 20px;
+    column-gap: 15px;
+  }
+  
+  #product1 .pro{
+  width: 19%;
+  min-width: 200px;
+  padding: 10px 12px;
+  border: 1px solid #a7a9a8;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 0;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+  }  
+  
+  #product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06); ;
+  }
+  
+  #product1 .pro img{
+    width: 95%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  
+  
+  #product1 .pro .description{
+  text-align: start;
+  padding: 10px 0;
+  }
+
+  #prodetails{
+    display: flex;
+    flex-direction: column ;
+  }
